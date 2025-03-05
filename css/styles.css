@@ -1,14 +1,26 @@
 
 
+#main-nav ul li a { 
+    text-decoration: none;
+    position: absolute;
+    top:-34px;
+    right: 10px;
+    color: white;
+    font-size: 1.8em;}
 
 
+#header{ background-image: url("../images/black.jpg"); }
 
+body { 
+    width: 960px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 1);
+    border-radius: 12px 12px 0px 0px; }
 
-
-
-
-
-
+#main-content{
+     background-image: url("../images/repeating.png");
+        float: left;
+}
 
 #header h1 { position: absolute;
     left: 420px;
@@ -16,3 +28,9 @@
     font-size: 3em;
     font-family: 'Devonshire', cursive;
     color: #E35335;}
+
+
+#main-nav{ 
+    float: left;
+    width: 100%;
+    background-color: #333;}
